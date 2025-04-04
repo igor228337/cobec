@@ -1,0 +1,31 @@
+[project]
+name = "cobec"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic>=1.15.2",
+    "anyio>=4.9.0",
+    "asyncpg>=0.30.0",
+    "fastapi>=0.115.12",
+    "itsdangerous>=2.2.0",
+    "loguru>=0.7.3",
+    "pydantic-settings>=2.8.1",
+    "pytest>=8.3.5",
+    "pytest-asyncio>=0.26.0",
+    "pytest-cov>=6.1.0",
+    "pytest-mock>=3.14.0",
+    "pytest-tornasync>=0.6.0.post2",
+    "pytest-trio>=0.8.0",
+    "pytest-twisted>=1.14.3",
+    "python-multipart>=0.0.20",
+    "sqladmin>=0.20.1",
+    "sqlalchemy-utils>=0.41.2",
+    "sqlmodel>=0.0.24",
+    "tronpy>=0.5.0",
+    "twisted>=24.11.0",
+    "uvicorn>=0.34.0",
+    "uvloop>=0.21.0",
+    "yarl>=1.18.3",
+]
